@@ -26,7 +26,7 @@ function formatBDT(amount){
 
 function capitalized(str){
     if(!str) return "";
-    return str.charAt(0).toUpperCase() + str.slice(1);
+    return str.charAt(0).toUpperCase()+str.slice(1);
 }
 
 function processOrder(user, itemPrice, discountCode){
@@ -50,3 +50,5 @@ function processOrder(user, itemPrice, discountCode){
 
 let user1 = {name: "Tarikul", email: "smtarikulislamofficial@gmail.com"};
 processOrder(user1,2000, "NLB");
+
+
