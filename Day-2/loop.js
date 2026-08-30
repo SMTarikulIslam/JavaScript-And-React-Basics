@@ -19,3 +19,4 @@ while(i<fruits.length){
     console.log("khabo: ", fruits[i]);
     i++;
 }
+
