@@ -70,3 +70,4 @@ function deleteStudent(id){
 
 deleteStudent(101);
 getAll();
+
