@@ -10,3 +10,15 @@ let movies = [
 let topSciFi = movies?.filter((m)=>m.genre === "Sci-Fi")?.sort((a,b)=>b.rating -a.rating)?.map((m)=>`${m.title}, rating:(${m.rating})`);
 console.log(topSciFi);
 
+//task 
+
+/*
+let products = [
+    {id: 1, title: "Mouse", price: 500, category: "Accessories", instock: true},
+    {id: 2, title: "Kayboard", price: 1200, category: "Accessories", instock: false},
+    {id: 3, title: "Monitor", price: 8000, category: "Accessories", instock: true},
+    {id: 4, title: "Laptop", price: 55000, category: "Accessories", instock: true},
+    {id: 5, title: "Headphone", price: 1500, category: "Accessories", instock: true},
+];
+
+*/
