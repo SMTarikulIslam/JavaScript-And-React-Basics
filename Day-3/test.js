@@ -21,4 +21,8 @@ let products = [
     {id: 5, title: "Headphone", price: 1500, category: "Accessories", instock: true},
 ];
 
+// Only In-Stock product, According to the price lower to higher sorted, Title + price need to find out 
+// Need to find out the total how much money if we want do the stock out.
 */
+
+
